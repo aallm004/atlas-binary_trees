@@ -10,7 +10,11 @@
  {
 	if (node == NULL)
 		return (0);
-	if (node->left == NULL && node->right == NULL)
+	if (node->left && node->right)
+	{
 		return (1);
+	else
+		return(0);
+	}
 	return(0);
 }
