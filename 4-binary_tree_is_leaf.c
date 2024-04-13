@@ -10,5 +10,5 @@
 {
 	if (!node)
 		return (0);
-	return(!node->left && !node->right);
+	return((!(node->left)) && (!(node->right)));
 }
