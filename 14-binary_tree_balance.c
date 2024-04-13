@@ -30,13 +30,6 @@ size_t binary_tree_height(const binary_tree_t *tree)
  *
  *Return: balance or no
  */
- /**
- *binary_tree_height - func that measures height of binary tree
- *
- *@tree: pointer to the root node of tree
- *
- *Return: tree or null
- */
 int binary_tree_balance(const binary_tree_t *tree)
 {
 	int left_height, right_height;
