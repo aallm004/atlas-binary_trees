@@ -7,7 +7,7 @@
  *
  *Return: Nothing
  **/
-size_t binary_tree_inorder(const binary_tree_t *tree)
+void binary_tree_inorder(const binary_tree_t *tree)
 {
 	if (tree == NULL || func == NULL)
 		return;
